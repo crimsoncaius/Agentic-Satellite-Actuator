@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+langchain-openai
+langchain
+langgraph
+openai
+requests
+pyaudio
+wave
+pynput
+dotenv
