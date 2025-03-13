@@ -166,6 +166,8 @@ kill -9 <PID>
 
 The full-stack application interfaces with the Unity game through a socket connection on port **5015**.
 
+Email me at caiusaaronchew@gmail.com if you want access to the Unity Game, it's not stored here
+
 ### **Windows:**
 
 1. Navigate to the Unity game directory:
@@ -230,9 +232,7 @@ This project provides a system for controlling a satellite using natural languag
 
 The following environment variables are used in this project (stored in `backend/.env`):
 
-- `GALAMAD_API_KEY`: OpenAI API key for the Galamad model
-- `ALVIN_API_KEY`: OpenAI API key for the Alvin model
-- `OPENAI_API_KEY`: The active OpenAI API key (defaults to GALAMAD_API_KEY)
+- `OPENAI_API_KEY`: The active OpenAI API key
 - `PLAYDIALOG_API_KEY`: API key for PlayDialog text-to-speech service
 - `PLAYDIALOG_USER_ID`: User ID for PlayDialog service
 - `SOCKET_PORT`: Port number for socket communication (default: 5015)
